@@ -82,11 +82,14 @@
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
-    "less": "^4.2.0",
+    "less": "^4.2.2",
     "lint-staged": "^13.3.0",
     "prettier": "2.8.4",
     "typescript": "^5.4.5",
     "vite": "^4.5.3",
     "vite-plugin-css-injected-by-js": "^3.5.1"
+  },
+  "dependencies": {
+    "mind-elixir": "file:"
   }
 }

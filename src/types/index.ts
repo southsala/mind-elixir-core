@@ -188,6 +188,18 @@ export interface NodeObj {
     height: number
     fit?: 'fill' | 'contain' | 'cover'
   }
+  video?: {
+    url: string
+    width: number
+    height: number
+    autoplay?: boolean
+    loop?: boolean
+    muted?: boolean
+  }
+  document?: {
+    url: string
+    name: string
+  }
   /**
    * The color of the branch.
    */

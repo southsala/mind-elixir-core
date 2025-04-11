@@ -39,6 +39,8 @@ export interface Topic extends HTMLElement {
 
   link?: HTMLElement
   image?: HTMLImageElement
+  video?: HTMLVideoElement
+  document?: HTMLDivElement
   icons?: HTMLSpanElement
   tags?: HTMLDivElement
 }
